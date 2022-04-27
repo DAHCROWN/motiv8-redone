@@ -1,6 +1,6 @@
 .home__hero__wrap {
   display: flex;
-  padding: 50px 8%;
+  padding: 10px 8%;
 }
 .header_logo img {
   margin-left: 50px;
@@ -310,4 +310,117 @@
     flex-shrink: 0;
     margin-right: 30px;
   }
+
+  .pricings {
+    background-color: #F8FAFE;
+    display: inline-flex;
+    padding: 50px 8%;
+    width: fit-content;
+
+  }
+
+  .xs-single-pricing {
+    margin: 20px;
+    width: 350px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 10px 10px 0 rgb(0 0 0 / 8%);
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 8%);
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: block;
+}
+.xs-single-pricing .pricing-header {
+  margin-bottom: 40px;
+}
+.xs-single-pricing .pricing-header .xs-content-title {
+  margin-bottom: 25px;
+}
+.xs-single-pricing .pricing-img-block {
+  margin-bottom: 25px;
+}
+.pricing-img-block img{
+    height: auto;
+    max-width: 300px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+.price-table {
+  color: #0c5adb;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.pricing-header h3{
+  font-weight: bold;
+  font-size: 28px;
+}
+.pricing-header h2{
+  font-size: 50px;
+}
+.pricing-body {
+  margin-bottom: 35px;
+}
+.xs-pricing-group .tab-pane .xs-single-pricing .btn {
+  height: 45px;
+  line-height: 45px;
+  border-radius: 22.5px;
+  padding: 0 39px;
+}
+
+.xs-list li{
+  margin-top: 10px;
+}
+.xs-single-pricing-alt2 {
+  margin: 20px;
+  width: 350px;
+  background-color: #1E45F5;
+  -webkit-box-shadow: 0 10px 10px 0 rgb(0 0 0 / 8%);
+  box-shadow: 0 10px 10px 0 rgb(0 0 0 / 8%);
+  text-align: center;
+  padding: 40px;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  overflow: hidden;
+  display: block;
+}
+.xs-single-pricing-alt2 h2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.xs-single-pricing-alt2 h3{
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+.pricing-header-two h2{
+  font-size: 50px;
+}
+.xs-list-two{
+  padding-top: 30px;
+}
+.xs-list-two li{
+  margin-top: 10px;
+  color: #fff;
+}
+.btn btn-primary{
+
+    height: 45px;
+    line-height: 45px;
+    border-radius: 22.5px;
+    padding: 0 39px;}
+
 }

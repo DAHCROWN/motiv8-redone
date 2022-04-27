@@ -38,7 +38,7 @@
             <a href="/index.html"><div>Home</div></a>
             <a href="blog.html"><div>Blog</div></a>
             <a href="about.html"> <div>About</div></a>
-            <a href="contact.html" class="header__active"><div>Contact</div></a>
+            <a href="contact.html" class="header__active"  id="open-btn"><div>Contact</div></a>
 
             <div class="header__phone__number__wrap">
               <i class="fa fa-phone" aria-hidden="true"></i>
@@ -55,28 +55,56 @@
             <!-- <div class="contact__location"></div> -->
           </div>
         </section>
-        <section class="contact__form__section">
-          <form class="contact__form">
-            <div class="contact__form__input__wrap">
-              <i class="fa fa-user-o" aria-hidden="true"></i>
-              <input placeholder="Your name" class="input" />
-            </div>
-            <div class="contact__form__input__wrap">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <input placeholder="Phone Number" class="input" />
-            </div>
-            <div class="contact__form__input__wrap">
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>
-              <input placeholder="Email Address" type="email" class="input" />
-            </div>
-            <div class="contact__form__input__wrap">
-              <i class="fa fa-comment-o" aria-hidden="true"></i>
-              <textarea placeholder="Message" class="input" rows="5"></textarea>
-            </div>
-            <button class="button">Submit</button>
-          </form>
-        </section>
 
+
+<!-- modal -->
+    
+        <!-- Modal Background and Modal -->
+        <div id="modal-background">
+          <div id="modal">
+            <span class="close__bttn" id="close-btn">&times;</span>
+
+            <section class="contact__form__section">
+              <div class="contact__form__about__us">
+                <div class="about__us">
+              
+              
+                  <div class="contact__form_about__us__location">
+                    <img src="/assets/img/location.svg" />
+                    <p>77, Opposite Emir's Junction, Bosso Road, Minna. Niger state.</p>
+                  </div>
+                  <div class="contact__form_about__us__mail">
+                    <img src="/assets/img/mail.svg" />
+                    <p>motiv8techltd@gmail.com</p>
+                  </div>
+                </div>
+              
+              </div>
+              <form class="contact__form">
+                <div class="contact__form__input__wrap">
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  <input placeholder="Your name" class="input" />
+                </div>
+                <div class="contact__form__input__wrap">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <input placeholder="Phone Number" class="input" />
+                </div>
+                <div class="contact__form__input__wrap">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <input placeholder="Email Address" type="email" class="input" />
+                </div>
+                <div class="contact__form__input__wrap__msg">
+                  <i class="fa fa-comment-o" aria-hidden="true"></i>
+                  <textarea placeholder="Type your message here" class="input" rows="5"></textarea>
+                </div>
+                <button class="button">Submit</button>
+              </form>
+            </section>
+<!-- end of contact card -->
+            </div>
+          </div>
+        </div>
+      
 
     
       </main>
@@ -186,4 +214,5 @@
     </div>
   </body>
   <script language="javascript" src="../assets/js/hamnav.js"></script>
+  <script type="text/javascript" src="../assets/js/contact.js"></script>
 </html>

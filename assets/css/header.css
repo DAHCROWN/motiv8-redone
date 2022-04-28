@@ -58,7 +58,7 @@
   left: 0;
   z-index: 1;
 }
-.header__bg__layer__blog {
+/* .header__bg__layer__blog {
   position: absolute;
   top: 0;
   left: 0;
@@ -67,7 +67,7 @@
   background-size: cover;
   height: 500px;
   z-index: -1;
-}
+} */
 
 .header__bg__layer__blog::after {
   content: " ";

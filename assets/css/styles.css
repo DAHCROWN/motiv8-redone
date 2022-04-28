@@ -20,6 +20,7 @@ body {
   margin: 0px;
   padding: 0px;
   color: var(--text-color-primary);
+  /* box-sizing: border-box; */
 }
 
 /* header */
@@ -190,6 +191,11 @@ body {
 .test-head h2, 
 .wrk-proc-head h2{
     font-size: 33px;
+}
+
+
+.choose-us-head h2{
+  color: white;
 }
 
 

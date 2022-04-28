@@ -635,7 +635,54 @@
 .reverse_colors > h1 {
   color: white;
 }
-
 .service:hover .reverse_colors{
   height: 100%;
+}
+
+/* portfolio card */
+.home__portfolio__body{
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30%;
+  gap: 50px
+
+}
+.portfolio__card{
+  /* margin: 10px; */
+  width: 100%;
+  position: relative;
+  /* border: 1px solid black; */
+}
+.portfolio__card h4{
+  font-family: Readex Pro;
+  font-weight: bold;
+  font-size: 28px;
+  padding-top: 20px;
+  padding: 0 10px;
+  color: #efefef;
+}
+.portfolio__card p{
+  font-family: Inter;
+  padding: 0 10px;
+  color: #efefef !important;
+  font-size: 10px;
+
+}
+.portfolio__card:hover{
+  transform: scale(1.1);
+  transition: .3s;
+}
+
+.portfolio__card img{
+  width: 100%
+}
+.portfolio__card__label{
+  padding: 10px 10px;
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.851);
+}
+.portfolio__card__label h4{
+  margin: 0;
 }

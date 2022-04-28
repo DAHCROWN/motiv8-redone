@@ -1,45 +1,65 @@
+
 .header_logo img {
   margin-left: 50px;
   width: 150px;
 }
 
-.contact {
-  /* display: flex;
-  justify-content: center; */
-  padding: 40px 0px;
+.contact__form__about__us{
+  width: 30%;
+  background-color: rgb(0, 26, 255);
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: auto;
+  text-align: center;
+  position: relative;
 }
-.contact__body {
-  width: 90%;
-  margin: auto;
+.about__us{
+  position: absolute;
+  top: 15%;
+  padding: 50px;
 }
-.contact__header {
-  height: 360px;
-  color: var(--color-white) !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* .contact__form_about__us__location{
+  position: absolute;
+  top: 50%;
 }
-.contact__header > p {
-  color: var(--color-white) !important;
+.contact__form_about__us__mail{
+  top: 50%;
+} */
+.contact__form_about__us__location p{
+  color: #fff;
 }
+.contact__form_about__us__location img{
+  width: 20%;
+}
+
+.contact__form_about__us__mail p{
+  color: #fff;
+  }
+.contact__form_about__us__mail img{
+  width: 20%;
+}
+
 .contact__form__wrap {
   display: flex;
 }
 .contact__form__section {
-  background-image: linear-gradient(
+  background-image: url(/assets/img/contact_bg.jpg);
+  /* background-image: linear-gradient(
     to right,
     rgb(0, 0, 254),
     rgb(81, 81, 228),
     rgb(142, 142, 230)
-  );
+  ); */
+  display: flex;
   padding: 20px;
 }
 .contact__form {
   flex: 1;
   box-sizing: border-box;
   overflow: hidden;
-
+  width: 50%;
+  height: 100%;
   text-align: center;
   background-color: var(--color-white);
   padding: 20px;
@@ -56,6 +76,24 @@
 }
 .contact__form__input__wrap > i {
   margin-right: 15px;
+}
+.contact__form__input__wrap__msg {
+  border: 1px solid black;
+  border-color: black;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.contact__form__input__wrap__msg > i {
+  margin-right: 15px;
+}
+.contact__form__input__wrap__msg textarea{
+  /* background-color: #000; */
+  border: none
+  ;
 }
 .contact__form > :nth-child(4) {
   align-items: flex-start;
@@ -161,7 +199,18 @@
     padding: 8%;
   }
   .contact__form {
+    max-width: 70%;
     border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     padding: 40px;
   }
+
+  .close__bttn{
+    width: 100px;
+  }
+  .contact__form__section{
+    margin: auto;
+  }
+
 }

@@ -1,6 +1,7 @@
 .home__hero__wrap {
-  display: flex;
-  padding: 10px 8%;
+  /* display: flex; */
+  padding: 70px 8%;
+  height: 100vh;
 }
 .header_logo img {
   margin-left: 50px;
@@ -8,11 +9,40 @@
 }
 .home__hero__text {
   flex: 1;
+  /* padding: 50px 0px; */
+
 }
-.home__hero__text > h1,
+.home__hero__text > h1{
+  color: var(--color-white);
+  font-family: Readex Pro;
+  font-weight: bolder;
+  font-size: 80px !important;
+  margin: 0px;
+}
 .home__hero__text > p {
   color: var(--color-white);
+  font-family: Inter;
+  font-size: 28px;
+  padding-top: 10px;
+  margin: 0;
 }
+.home__hero__text > button {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: lighter;
+}
+.home__hero__text > button > svg{
+  height: 30px;
+}
+
 
 .home__hero__text > h1 {
   font-size: 48px;
@@ -154,15 +184,71 @@
   margin-right: 20px;
 }
 .home__more__value__content{
-
+  
   font-size: 20px;
 }
 
 .home__more__value__content__item > p {
   margin: 8px 0px;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: Readex Pro;
+  color: #5A5A5A;
 }
-.home__section {
+.home__more__value__content > h4 {
+  margin: 8px 0px;
+  font-weight: bolder;
+  font-family: Readex Pro;
+  font-size: 30px;
+}
+.home__section__work__process {
+  padding: 50px 8%;
+  background: url(/assets/img/work_process.png);
+  height: 80vh;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home__section__work__process img{
+  height: 80%;
+}
+.home__section__work__process button{
+  display: flex;
+  align-items: center;
+  margin: 20px -25px;
+  background: white;
+  border: 2px solid white;
+  color: #112591;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: lighter;
+}
+.home__section__work__process button:hover{
+  background-color: #112591;
+  color: white;
+  transition: 0.4s;
+  border: none;
+}
+.home__section__work__process  button  svg{
+  height: 30px;
+}
+.home__section__work__process button:hover svg{
+  fill: white;
+  color: white;
+}
+.work__process__content > ul{
+  font-weight: lighter;
+  font-size: 20px;
+  color: white;
+}
+.work__process__content > h2{
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+}
+.home__section{
   padding: 50px 8%;
 }
 .home__service {
@@ -297,6 +383,8 @@
   .home__more__value__wrap {
     padding: 30px;
   }
+
+
   .home__service__body {
     grid-template-columns: 1fr;
   }
@@ -327,6 +415,7 @@
   }
   .home__more__value__body {
     display: flex;
+    align-items: center;
   }
   .home__more__value__hero {
     flex: 1;
@@ -476,15 +565,26 @@
 .container-4-service-grids{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
-  margin: 0px 100px;
+  gap: 50px;
+  margin: 0px 10px;
+  padding: 50px 8%;
 }
 
 .container-4-service-grids > div {
-  border: 4px solid #efefef;
+  /* border: 4px solid #efefef; */
   padding: 30px;
 }
-
+.service > h1{
+  color: rgb(233, 230, 230);
+}
+.services__heading h2{
+  font-family: Readex Pro;
+  font-size: 50px;
+  font-weight: bolder;
+  width: fit-content;
+  margin: auto;
+  padding: 50px 0;
+}
 
 
 @keyframes raise-bg{
@@ -495,8 +595,47 @@
   100% {background-color: blue; left: 0px; top: 0px;}
 }
 
-.service:hover{
+/* .service:hover{
   animation-name: raise-bg;
   animation-duration: 10s;
   color: #fff;
+} */
+
+/* testint reversing */
+.service{
+  height: 330px;
+  position: relative;
+  border: 1px solid #EFEFEF;
+  background: url(/assets/img/drug.png);
+  /* box-shadow: 3px 3px #0000fe; */
+}
+.service h1{
+  font-family: Readex Pro;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.reverse_colors {
+  border: 4px solid #efefef;
+  padding: 0px 30px;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1839CF;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.reverse_content > h1, p {
+  color: white;
+}
+.reverse_colors > h1 {
+  color: white;
+}
+
+.service:hover .reverse_colors{
+  height: 100%;
 }

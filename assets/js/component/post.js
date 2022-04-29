@@ -17,7 +17,7 @@ function useFetchPost() {
 
   const onFetchBlog = async () => {
     await fetch(
-      `https://desolate-everglades-85377.herokuapp.com/blog/post/${id}`,
+      `http://localhost:8000/blog/${id}`,
       {
         method: "GET",
         headers: {

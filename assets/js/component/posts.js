@@ -12,7 +12,9 @@ function date(date) {
 }
 
 function FirstImage({ src }) {
-  return <div className="blog__first__image" />;
+  return <div className="blog__first__image" >
+    <img className="post-img" src={src} />
+  </div>;
 }
 
 function ReadMoreButton(props) {
@@ -32,13 +34,13 @@ function TextContainer({ title, content }) {
   );
 }
 
-function PostCard({ title, content, id, date_posted }) {
+function PostCard({ title, body, image, id, date_posted }) {
   return (
     <div className="blog__post__card">
-      <FirstImage src="../../img/blog_pic.jpg" />
+      <FirstImage src={image} />
       <div className="blog__post__body">
         <DateTime date={date_posted} />
-        <TextContainer title={title} content={content} />
+        <TextContainer title={title} content={body} />
         <ReadMoreButton
           onClick={() =>
             window.location.assign(`../../pages/post.html?id=${id}`)
@@ -53,7 +55,7 @@ function useFetchBlog() {
   const [blogs, setBlogs] = React.useState([]);
 
   const onFetchBlog = async () => {
-    await fetch("https://desolate-everglades-85377.herokuapp.com/blog", {
+    await fetch("http://localhost:8000/blog", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

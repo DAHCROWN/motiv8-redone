@@ -113,9 +113,9 @@
   padding: 50px;
   position: relative;
   margin: auto;
-
-  max-width: 1000px;
+  width: 1000px;
   display: flex;
+  align-self: center;
   flex-direction: row;
 }
 .blog__posts__most__recent img{

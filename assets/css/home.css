@@ -72,27 +72,6 @@
 
 
 
-/* choose us */
-.home__choose__us__wrap {
-  /* background: url(/assets/img/test_bg.png); */
-  padding: 50px 8%;
-  /* background-color: #1E45F5; */
-}
-
-.home__choose__us__item {
-  background-color: white;
-  box-shadow: inset;
-  border-radius: 10px;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.home__choose__us__item > img {
-  height: 70px;
-}
-
 /* portfolio */
 .Portfolio-head h2{
   width: 600px;

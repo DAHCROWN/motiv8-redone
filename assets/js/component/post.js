@@ -1,15 +1,15 @@
 function DateTime() {
   return (
-    <div className="blog__date__time">
+    <div style={{paddingLeft:80,paddingRight:80, paddingTop:20}} className="blog__date__time">
       <i className="fa fa-history"> </i>
-      <small>{date(props.date)}</small>
+      {/* <small>{date(props.date)}</small> */}
     </div>
   );
 }
 
-function date(date) {
-  return new Date(date).toLocaleDateString();
-}
+// function date(date) {
+//   return new Date(date).toLocaleDateString();
+// }
 function useFetchPost() {
   const [post, setPost] = React.useState({});
   var query = window.location.search.substring(1);
@@ -40,9 +40,10 @@ function Post() {
 
   return (
     <div>
-      <h2>{post.title}</h2>
-      <DateTime date={post.date_posted} />
-      <p>{post.content}</p>
+      <h1>{post.title}</h1>
+      <img src={post.image} width='100%'/>
+      <DateTime  date={post.date_posted} />
+      <div style={{paddingLeft:80,paddingRight:80}} dangerouslySetInnerHTML={{__html: post.body}} />
     </div>
   );
 }

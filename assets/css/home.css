@@ -228,22 +228,26 @@
   padding-top: 40px;
 }
 .work__process__content{
-  padding: 20px 8%;
+  padding: 20px 10px;
   padding-bottom: 50px;
   margin: 50px 10%;
-  display: flex;
-  gap: 150px;
+  display: grid;
+  gap: 20%;
+  grid-template-columns: 1fr 1fr;
   /* justify-content: space-between; */
   align-items: center;
 }
-.work__process__content > ul{
+.work__process__content div h4{
+  font-weight: 100;
+  font-size: 25px;
   font-weight: lighter;
-  font-size: 27px;
   color: white;
 }
-.work__process__content li{
+.work__process__content div button{
+  padding: 15px 15px;
+  margin: 10px;
+  font-size: 18px;
   font-family: Readex Pro;
-  color: white;
 }
 .work__process__content > h2{
   font-weight: bolder;
@@ -251,7 +255,7 @@
   color: white;
 }
 .work__process__content img{
-  width: 35%;
+  width: 60%;
 }
 .home__section{
   padding: 50px 8%;

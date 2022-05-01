@@ -1,0 +1,108 @@
+.hub__hero__wrap {
+  /* display: flex; */
+  padding: 70px 8%;
+  height: 60vh;
+  background-image: url(/assets/img/m8-office.jpeg);
+}
+.hub__hero__text {
+  flex: 1;
+  /* padding: 50px 0px; */
+
+}
+.hub__hero__text > h1{
+  color: var(--color-white);
+  font-family: Readex Pro;
+  font-weight: bolder;
+  font-size: 80px !important;
+  margin: 0px;
+}
+.hub__hero__text > p {
+  color: var(--color-white);
+  font-family: Inter;
+  font-size: 28px;
+  padding-top: 10px;
+  margin: 0;
+}
+.hub__hero__text > button {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: lighter;
+}
+.hub__hero__text > button > svg{
+  height: 30px;
+}
+
+
+.hub__hero__text > h1 {
+  font-size: 48px;
+}
+
+.hub__hero__button {
+  width: 237px;
+  height: 54px;
+  font-weight: 300;
+  color: var(--color-white);
+  background-color:#FF7A59;
+  /* background: rgb(3,5,219);
+  background: linear-gradient(90deg, rgba(3,5,219,1) 35%, rgba(0,156,255,1) 100%);  */
+  border-radius: 8px;
+  border:none;
+  outline:none;
+
+}
+
+.hub__hero__image__wrap {
+  flex: 1;
+}
+.hub__hero__image__wrap img {
+  width: 100%;
+}
+.container-hub-grids{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin: 0px 10px;
+  padding: 50px 20%;
+  
+}
+.price__plans{
+  background-color: #112791;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 50px 20%;
+}
+.price__plans__cards{
+  border-radius: 5px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.437);
+}
+.price__plans__cards h2{
+  font-size: 30px;
+  font-family: Readex Pro;
+  color: white;
+
+}
+.price__plans__cards h3{
+  font-size: 40px;
+  font-family: Readex Pro;
+  margin: 0;
+  color: white;
+}
+.price__plans__cards span{
+  font-family: Readex Pro;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+}

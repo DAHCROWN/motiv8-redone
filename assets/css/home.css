@@ -79,6 +79,7 @@
 
 .home__portfolio__wrap {
   padding: 50px 8%;
+  background: #eeeef5;
 }
 .home__portfolio__wrap h2{
   font-size: 33px;
@@ -152,7 +153,7 @@
 }
 
 .home__more__value__hero > img {
-  width: 100%;
+  width: 90%;
 }
 .home__more__value__content__item {
   display: flex;
@@ -163,30 +164,27 @@
   margin-right: 20px;
 }
 .home__more__value__content{
-  
   font-size: 20px;
 }
 
 .home__more__value__content__item > p {
-  margin: 8px 0px;
+  margin: 0px 0px;
   font-size: 20px;
-  font-family: Readex Pro;
-  color: #5A5A5A;
+  font-weight: lighter;
+  color: rgb(20, 19, 19);
+
 }
 .home__more__value__content > h4 {
   margin: 8px 0px;
   font-weight: bolder;
-  font-family: Readex Pro;
-  font-size: 30px;
+  /* font-family: Readex Pro; */
+  color: rgb(20, 19, 19);
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 .home__section__work__process {
-  padding: 50px 8%;
   background: url(/assets/img/work_process.png);
   height: 80vh;
-  margin: 50px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .home__section__work__process img{
   height: 80%;
@@ -217,15 +215,47 @@
   fill: white;
   color: white;
 }
-.work__process__content > ul{
-  font-weight: lighter;
-  font-size: 20px;
+.work__process__heading h2 svg{
+  vertical-align: middle;
+}
+.work__process__heading h2{
+  font-family: Readex Pro;
+  font-size: 50px;
+  font-weight: bolder;
+  width: fit-content;
+  margin: auto;
   color: white;
+  padding-top: 40px;
+}
+.work__process__content{
+  padding: 20px 10px;
+  padding-bottom: 50px;
+  margin: 50px 10%;
+  display: grid;
+  gap: 20%;
+  grid-template-columns: 1fr 1fr;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.work__process__content div h4{
+  font-weight: 100;
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+}
+.work__process__content div button{
+  padding: 15px 15px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: Readex Pro;
 }
 .work__process__content > h2{
   font-weight: bolder;
   font-size: 40px;
   color: white;
+}
+.work__process__content img{
+  width: 60%;
 }
 .home__section{
   padding: 50px 8%;
@@ -563,6 +593,7 @@
   width: fit-content;
   margin: auto;
   padding: 50px 0;
+  color: rgb(20, 19, 19);
 }
 
 
@@ -573,14 +604,6 @@
   75% {background-color: blue; left: 0px; top: 0px;}
   100% {background-color: blue; left: 0px; top: 0px;}
 }
-
-/* .service:hover{
-  animation-name: raise-bg;
-  animation-duration: 10s;
-  color: #fff;
-} */
-
-/* testint reversing */
 .service{
   height: 330px;
   position: relative;
@@ -594,9 +617,9 @@
   font-size: 28px;
 }
 .reverse_colors {
-  border: 4px solid #efefef;
-  padding: 0px 30px;
-  padding-top: 50px;
+
+  padding: 0px 20px;
+  /* padding-top: 50px; */
   position: absolute;
   bottom: 0;
   left: 0;
@@ -607,6 +630,7 @@
   height: 0;
   transition: .5s ease;
 }
+
 
 .reverse_content > h1, p {
   color: white;
@@ -664,4 +688,93 @@
 }
 .portfolio__card__label h4{
   margin: 0;
+}
+.container-service-grids{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 55px;
+  margin: 0px 10px;
+  padding: 50px 10%;
+}
+
+.services{
+  /* border: 1px solid black; */
+  align-content: center;
+  width: 70%;
+  text-align: center;
+}
+.services:hover{
+  transform: scale(1.015);
+  transition: .4s;
+}
+.services h1{
+  font-family: Readex Pro;
+  margin: 10px 0;
+  padding: 0;
+  color: black;
+  font-size: 20px;
+}
+.services h5{
+  font-family: Readex Pro;
+  font-weight: 50;
+  margin: 0;
+}
+.services img{
+  width: 40%;
+  height: 100px;
+}
+.find__more__button button{
+  background-color: #0182F9;
+  border: none;
+  font-family: Readex Pro;
+  margin-left: 30%;
+  padding: 8px 20px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 25px;
+  vertical-align: middle;
+  display: flex;
+}
+.find__more__button svg{
+  vertical-align: middle;
+  padding: 0 3px;
+}
+.find__more__button :hover{
+  background-color: blue;
+}
+
+/* brands */
+.brands__banner{
+  padding: 50px;
+}
+.grid__brands{
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.grid__brands img{
+  max-height: 150px;
+}
+
+
+.contact{
+  position: fixed;
+  bottom: 10px;
+  right: 40px;
+  width: fit-content;
+  height: fit-content;
+}
+.contact button{
+  background: #112791;
+  border: none;
+  margin: 0;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.contact button:hover{
+  cursor: pointer;
+  background: blue;
+}
+.contact button svg{
+  padding: 5px;
 }

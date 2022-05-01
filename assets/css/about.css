@@ -1,10 +1,15 @@
-.banner__grid{
-  margin: 0 100px;
+
+.about__m8{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-  gap: 10px;
+  justify-content: space-evenly;
+}
+.headings{
+  font-family: Readex Pro ;
+  font-size: 30px;
+  font-weight: bolder;
+  width: fit-content;
+  margin: 10px auto;
+  color: rgb(20, 19, 19);
 }
 .partners__banner{
   padding: 10px 200px;
@@ -58,6 +63,8 @@
   /* flex: 1; */
   width: 50%;
   margin-right: 10%;
+  margin: 50px 50px;
+
 
 }
 
@@ -243,6 +250,13 @@
 
   .contact__form__wrap {
     display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    margin: 50px;
+  }
+  .contact__form__wrap img{
+    width: 50%;
+    height: auto;
   }
 
   .contact__form__section {
@@ -265,15 +279,16 @@
   }
 
   .contact__loc__phone__mail__wrap {
-    display: grid;
-    flex: 1;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin: 20px 0px;
-    padding: 0px 40px;
+    padding: 40px 40px;
     margin-top: 20px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     text-align: center;
-    background-color: #0441E9;
+    /* background-color: #0441E9; */
+    width: 40%;
   }
 
   .contact__loc__phone__mail {
@@ -288,8 +303,9 @@
     font-size: 16px;
     font-weight: bold;
     padding: 5px;
-    color: white;
-
+  }
+  .contact__loc__phone__mail img{
+    width: 60%;
   }
 
   /* .contact__loc__phone__mail phn_num {
@@ -353,11 +369,6 @@
     .contact__form__wrap {
       flex-direction: row;
     }
-
-    .contact__loc__phone__mail__wrap {
-      margin: auto;
-    }
-
     .contact__loc__phone__mail__wrap> :not(:last-child) {
       border-right: 1px solid var(--color-border);
     }
@@ -569,8 +580,10 @@
 
   /* choose us */
   .home__choose__us__wrap {
+
     /* background: url(/assets/img/test_bg.png); */
     padding: 50px 8%;
+    margin: 30px;
     /* background-color: #1E45F5; */
   }
 
@@ -590,4 +603,22 @@
   }
 
 
+}
+.intro__brief{
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  width: 80%;
+  align-items: center;
+}
+.intro__brief p{
+  /* font-family: Inter; */
+  padding-right: 50px;
+  width: 60%;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: justify;
+}
+.intro__brief img{
+  width: 40%;
 }

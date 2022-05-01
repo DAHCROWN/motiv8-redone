@@ -250,7 +250,7 @@
 
   .contact__form__wrap {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /* width: 100%; */
     margin: 50px;
   }

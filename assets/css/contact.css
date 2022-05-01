@@ -44,21 +44,14 @@
   display: flex;
 }
 .contact__form__section {
-  background-image: url(/assets/img/contact_bg.jpg);
-  /* background-image: linear-gradient(
-    to right,
-    rgb(0, 0, 254),
-    rgb(81, 81, 228),
-    rgb(142, 142, 230)
-  ); */
-  display: flex;
+  /* display: flex; */
   padding: 20px;
 }
 .contact__form {
   flex: 1;
   box-sizing: border-box;
   overflow: hidden;
-  width: 50%;
+  width: 70%;
   height: 100%;
   text-align: center;
   background-color: var(--color-white);
@@ -75,19 +68,6 @@
   align-items: center;
 }
 .contact__form__input__wrap > i {
-  margin-right: 15px;
-}
-.contact__form__input__wrap__msg {
-  border: 1px solid black;
-  border-color: black;
-  border-radius: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  display: flex;
-  align-items: center;
-}
-.contact__form__input__wrap__msg > i {
   margin-right: 15px;
 }
 .contact__form__input__wrap__msg textarea{
@@ -199,11 +179,10 @@
     padding: 8%;
   }
   .contact__form {
-    max-width: 70%;
+    /* height: 10%; */
     border-radius: 10px;
+    border-top-right-radius: 0;
     border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 40px;
   }
 
   .close__bttn{
@@ -213,4 +192,58 @@
     margin: auto;
   }
 
+}
+.request__us__header{
+  /* background: url(/assets/img/contact_bg.jpg); */
+  width: 100%;
+  text-align: center;
+}
+.request__us__header div{
+  padding:10px 40px;
+}
+.request__us__header div h2, h4{
+  font-family: Readex Pro;
+  color: #112791;
+}
+.request__us__header div h2{
+  font-size: 35px;
+}
+#modal-background{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  padding: 50px;
+
+}
+#close-btn {
+  align-self: baseline;
+  margin-top: 200px;
+  padding: 20px 50px;
+  font-size: 50px;
+  color: red;
+  cursor: pointer;
+}
+
+#modal {
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation-name: animatemodal;
+  animation-duration: 0.4s;
+}
+.modal__contents{
+  width: 100%;
 }

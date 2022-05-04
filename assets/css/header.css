@@ -93,8 +93,7 @@
   position: fixed;
   z-index: 2;
   top: 0;
-  /* background: transparent; */
-  background-color: #112791;
+  background: transparent;
   box-shadow: 0px 1px 5px #33333528;
 }
 

@@ -133,7 +133,10 @@
   z-index: 2;
   top: 0;
   background: transparent;
+<<<<<<< HEAD
+=======
   /* background-color: #112791; */
+>>>>>>> e10c4856799cbeb58eb5b6f27d9ff588651f5f28
   box-shadow: 0px 1px 5px #33333528;
 }
 

@@ -1,20 +1,20 @@
 .hub__hero__wrap {
   /* display: flex; */
   padding: 70px 8%;
-  height: 60vh;
-  background-image: url(/assets/img/m8-office.jpeg);
 }
 .hub__hero__text {
-  flex: 1;
-  /* padding: 50px 0px; */
+  width: fit-content;
+  display: flex;
+  margin: auto;
 
 }
 .hub__hero__text > h1{
   color: var(--color-white);
   font-family: Readex Pro;
   font-weight: bolder;
-  font-size: 80px !important;
+  font-size: 45px !important;
   margin: 0px;
+  color: #112791;
 }
 .hub__hero__text > p {
   color: var(--color-white);
@@ -150,4 +150,16 @@
   height: fit-content;
   padding: 3px;
   border-bottom: 4px solid grey;
+}
+.hub__hero{
+  margin: 20px 100px;
+  display: flex;
+}
+.hub__hero h2{
+  font-family: Readex Pro;
+  font-size: 30px;
+}
+.hub__hero img{
+  padding: 20px;
+  width: 50%;
 }

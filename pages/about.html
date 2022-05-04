@@ -21,9 +21,10 @@
 
 <body>
   <div id="main">
-    <header class="header">
-      <div class="header__bg__layer__about"></div>
-      <div class="header__body">
+    <div class="hero-bg"></div>
+    <header class="header__pro">
+      <!-- <div class="header__bg__layer"></div> -->
+      <div class="header__body" style="background-color: white">
         <div class="header_logo">
           <a href="/index.html"><img src="/assets/img/logo-svg.svg" /></a>
         </div>
@@ -33,18 +34,53 @@
           <div class="nav-bar"></div>
           <div class="nav-bar"></div>
         </div>
-
+<style>
+  .header__nav a {
+    color: #112791;
+  }
+.header__phone__number__wrap {
+  /* display: flex;
+  flex: 1;
+  justify-content: flex-end; */
+  max-height: 45px;
+  color: #112791;
+}
+.header__phone__number__wrap > :first-child {
+  /* margin-right: 20px; */
+  padding: px 5px;
+}
+.header__phone__number__wrap > a {
+  /* margin-right: 20px; */
+  color: #112791;
+}
+.header__phone__number__wrap {
+  color: #112791;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+.header__phone__number__wrap {
+  border: 2px solid #112791;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+</style>
         <div class="header__nav">
-          <a href="/index.html">
+          <a href="../index.html">
             <div>Home</div>
           </a>
-          <a href="https://www.academy.motiv8technologies.com/">
+          <a href="./projects.html" class="header__active">
+            <div>Projects</div>
+          </a>
+          <a href="https://academy.motiv8technologies.com">
             <div>Academy</div>
           </a>
-          <a href="blog.html">
+          <a href="./hub.html">
+            <div>Hubs</div>
+          </a>
+          <a href="./blog.html">
             <div>Blog</div>
           </a>
-          <a href="about.html" class="header__active">
+          <a href="./about.html">
             <div>About</div>
           </a>
           <div class="header__phone__number__wrap">
@@ -116,7 +152,7 @@
       </section>
 
 
-      <section class="about__team__wrap">
+      <!-- <section class="about__team__wrap">
         <div class="about__team__text_wrap">
           <h3 class="title__two">Our Great Team</h3>
           <div class="title__two__border"></div>
@@ -133,7 +169,7 @@
         <!-- <div class="about__illus_wrap">
             <img src="../assets//img/about01.png" class="about__illus" />
           </div> -->
-      </section>
+      </section> -->
       <!-- <section>
         <div class="about__team__list">
           <img src="../assets//img/default-team.svg" />

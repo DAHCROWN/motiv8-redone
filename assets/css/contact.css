@@ -201,6 +201,7 @@
 }
 .request__us__header div h2{
   font-size: 35px;
+  margin-top: 0%;
 }
 #modal-background{
   display: none;
@@ -216,8 +217,8 @@
 }
 #close-btn {
   align-self: baseline;
-  margin-top: 200px;
-  padding: 20px 50px;
+  margin-top: 10px;
+  padding: 10px 50px;
   font-size: 50px;
   color: red;
   cursor: pointer;
@@ -228,7 +229,7 @@
   border-radius: 5px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
   width: 40%;
   display: flex;

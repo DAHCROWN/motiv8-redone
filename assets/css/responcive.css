@@ -1,0 +1,54 @@
+@media screen and (max-width:500px) {
+    .header_logo img{
+        margin: 10px;
+        width: 5.2rem;
+    }
+.home__hero__text > h1{
+    font-size: 40px !important;
+    text-align: left;
+}
+.services__heading h2{
+    font-size: 35px !important;
+    padding: 20px 10px;
+}   
+.home__section__work__process{
+    padding:20px 0;
+    
+}
+.work__process__heading h2{
+    font-size: 35px !important;
+    padding: 1px 0px; 
+    text-align: center;
+}
+.work__process__heading svg{
+   width: 44px;
+}
+.work__process__content{
+    padding: 0 10px;
+    margin: 0;
+    gap: 10px;
+    display: flex;
+
+}
+.home__hero__text > p{
+    font-size: 18px !important;
+    text-align: left;
+}
+.container-service-grids{
+    padding: 0;
+    gap: 10px;
+}
+.brands__banner{
+    padding: 0;
+}
+.grid__brands  {
+    padding: 10px;
+}
+.grid__brands img {
+    width: 20%;
+    height: auto;
+}
+.container-4-service-grids{
+    display: block;
+}
+}

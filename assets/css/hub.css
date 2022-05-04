@@ -2,6 +2,7 @@
   /* display: flex; */
   padding: 70px 8%;
   height: 60vh;
+  margin-top: -20px;
   background-image: url(/assets/img/m8-office.jpeg);
 }
 .hub__hero__text {
@@ -13,7 +14,7 @@
   color: var(--color-white);
   font-family: Readex Pro;
   font-weight: bolder;
-  font-size: 80px !important;
+  /* font-size: 80px !important;   */
   margin: 0px;
 }
 .hub__hero__text > p {
@@ -72,6 +73,12 @@
   margin: 0px 10px;
   padding: 50px 20%;
   
+}
+.prices{
+  margin: 20px 0;
+}
+.price__plans h2{
+  color: white !important;
 }
 .price__plans{
   background-color: #112791;

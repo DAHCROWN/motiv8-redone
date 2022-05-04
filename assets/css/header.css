@@ -1,6 +1,8 @@
 .header {
   width: 100%;
   height: 100px;
+
+
   position: relative;
 }
 .home__hero__wrap{
@@ -44,22 +46,24 @@
   left: 0;
   width: 100%;
   /* background: url(../img/about-us.png); */
-  height: 500px;
+  height: inherit;
   z-index: -1;
+  background-image: url(/assets/img/bg.png);
+
 }
 
 /* come here */
-.header__bg__layer__about::after {
+/* .header__bg__layer__about::after {
   content: " ";
-  /* background-color: #102792; */
+  background-color: #102792;
   background-image: url(/assets/img/bg.png);
   width: 100%;
-  height: 20%;
+  height: 100px;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
-}
+} */
 /* .header__bg__layer__blog {
   position: absolute;
   top: 0;

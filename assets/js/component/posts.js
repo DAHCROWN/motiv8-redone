@@ -34,12 +34,12 @@ function TextContainer({ title, content }) {
   );
 }
 
-function PostCard({ title, body, image, id, date_posted }) {
+function PostCard({ title, body, image, id, date }) {
   return (
     <div className="blog__post__card">
       <FirstImage src={image} />
       <div className="blog__post__body">
-        <DateTime date={date_posted} />
+        <DateTime date={date} />
         <TextContainer title={title} content={body} />
         <ReadMoreButton
           onClick={() =>

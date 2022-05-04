@@ -1,21 +1,58 @@
 .header {
   width: 100%;
-  height: 100px;
+  height: 80px;
   position: relative;
+  background-color:transparent;
+}
+.header__pro{
+  width: 100%;
+  height: 80px;
+  position: relative;
+  background-color: #112791;
+}
+.header__nav__pro {
+}
+.header__nav__pro > a {
+  color: rgba(255, 255, 255, 0.653);
+}
+.header__nav__pro > a:active {
+  color: blue;
+}
+.header__active {
+  color: var(--color-primary);
+}
+
+.header__nav__pro{
+  color: black;
+}
+.header__bg__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../img/bg.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  z-index: -1;
+  background-position: bottom;
+  background-size: cover;
 }
 .home__hero__wrap{
-  /* height: fit-content; */
+  height: 70vh;
+}
+.home__hero__wrap__pro{
+  height: 70vh;
+  background: url(/assets/img/projects-hero.jpg);
+  padding: 70px 8%;
 }
 .hero-bg {
   /* position: relative; */
-  
-  /* border: 1px solid red; */
-  background: url(../img/bg.png);
+  /* background: url(../img/bg.png); */
+  /* background: blue; */
   background-repeat: no-repeat;
-  height: 100vh;
+  height: fit-content;
   z-index: -1;
-  /* background-position: bottom; */
-  /* background-size: cover; */
+
 }
 
 .header__bg__layer__contact {
@@ -85,7 +122,7 @@
 .header__body {
   
   width: 100%;
-  height: 100px;
+  height: 80px;
   box-shadow: 0px 1px 5px #33333528;
   display: flex;
   align-items: center;
@@ -95,16 +132,15 @@
   /* position: fixed; */
   z-index: 2;
   top: 0;
-  /* background: transparent; */
+  background: transparent;
   /* background-color: #112791; */
   box-shadow: 0px 1px 5px #33333528;
 }
 
 .background-header{
+  height: 10%;
   position: fixed ;
-  background-image: url(/assets/img/bg.png);
-  /* background-position: center; */
-  /* background-size: cover; */
+  background: #112791;
   background-repeat: no-repeat;
   transition: .8s ease-in;
 }
@@ -138,7 +174,7 @@
 .header__nav {
 }
 .header__nav > a {
-  color: white;
+  color: rgba(255, 255, 255, 0.653);
 }
 .header__nav > a:active {
   color: blue;

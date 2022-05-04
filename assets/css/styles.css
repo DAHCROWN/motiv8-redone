@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Readex+Pro');
-@import url('https://fonts.googleapis.com/css?family=San+Francisco');
-@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 :root {
   --color-primary: #0000fe;
   --color-white: #ffffff;
@@ -15,7 +15,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: Open Sans;
+  font-family: Lato;
 }
 
 html,

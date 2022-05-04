@@ -73,36 +73,81 @@
   padding: 50px 20%;
   
 }
+
+.hub-services{
+  /* border: 1px solid black; */
+  align-content: center;
+  width: 70%;
+  text-align: center;
+}
+.services:hover{
+  transform: scale(1.015);
+  transition: .4s;
+}
+.services h1{
+  font-family: Readex Pro;
+  margin: 10px 0;
+  padding: 0;
+  color: black;
+  font-size: 20px;
+}
+.services h5{
+  font-family: Readex Pro;
+  font-weight: 50;
+  margin: 0;
+}
+.services img{
+  width: 40%;
+  height: 100px;
+}
 .price__plans{
   background-color: #112791;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  padding: 50px 20%;
+  gap: 50px;
+  padding: 50px 30%;
 }
 .price__plans__cards{
   border-radius: 5px;
-  padding: 20px 10px;
+  padding: 20px 30px;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.437);
+  text-align: left;
+  background-color: #ffffff;
+  height: 500px;
+  width: 400px;
 }
 .price__plans__cards h2{
-  font-size: 30px;
+  font-size: 25px;
   font-family: Readex Pro;
-  color: white;
+  color: black;
+  margin: 10px 0;
+  font-weight: bolder;
 
 }
 .price__plans__cards h3{
-  font-size: 40px;
+  font-size: 50px;
   font-family: Readex Pro;
-  margin: 0;
-  color: white;
+  margin: 10px 0;
+  color: black;
+}
+.price__plans__cards div h4{
+  font-size: 14px;
+  font-family: Open Sans;
+  color: rgb(45, 44, 44);
+  margin:0;
+  margin-bottom: 5px;
 }
 .price__plans__cards span{
   font-family: Readex Pro;
   font-size: 20px;
-  font-weight: 100;
-  color: white;
+  font-weight:700;
+  color: black;
+  padding: 5px 0;
+}
+.bttm{
+  height: fit-content;
+  padding: 3px;
+  border-bottom: 4px solid grey;
 }

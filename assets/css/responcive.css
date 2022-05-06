@@ -34,7 +34,7 @@
     font-size: 18px !important;
     text-align: left;
 }
-.container-service-grids{
+.container-service-grids ,.container-hub-grids,.price__plans{
     padding: 0;
     gap: 10px;
 }
@@ -45,10 +45,84 @@
     padding: 10px;
 }
 .grid__brands img {
-    width: 20%;
-    height: auto;
+    width: 4rem;
+    height: 4rem;
 }
 .container-4-service-grids{
     display: block;
 }
+
+.price__plans{
+    padding: 20px 10px;
 }
+
+}
+
+@media screen and (max-width:350px) {
+    .container-service-grids{
+        grid-template-columns: 1fr 1fr !important;
+        text-align: center;
+        width: fit-content;
+        margin: 10px;
+    }
+    .price__plans{
+        grid-template-columns: 1fr;
+    }
+ 
+}
+   .container-service-grids .services , .container-hub-grids .services{
+        text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+        /* background-color: black; */
+    }
+
+@media screen and (max-width:860px) {
+    .blog__posts__most__recent{
+      display: block;
+      padding: 20px;
+    }
+    .blog__posts__most__recent__details{
+         width: 100%;
+       }
+
+
+    .intro__brief{
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+    .intro__brief p{
+        width: 100% !important;
+        padding: 5px !important;
+    }
+    .intro__brief img{
+        width: 80% !important;
+        display: flex;
+        margin: auto;
+        
+    }
+    .home__choose__us__body{
+        background-color: rgb(225, 243, 255);
+        padding: 20px 0;
+    }
+    .home__choose__us__item{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .about__team__text_wrap{
+        width: 100%;
+        margin: 0;
+    }
+    .contact__form__wrap img{
+        width: 80%;
+        margin: auto;
+        display: flex
+    }
+    .contact__loc__phone__mail__wrap{
+        width: 80%;
+        margin: auto;
+        
+    }
+  }

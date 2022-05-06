@@ -1,6 +1,7 @@
 .home__hero__wrap {
   display: flex;
   padding: 70px 8%;
+  align-items: flex-end;
   /* height: 100%; */
 }
 .home__hero__wrap .image__box {
@@ -761,7 +762,7 @@
 /* brands */
 .brands__banner{
   padding: 50px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 .grid__brands{
   height: 150px;
@@ -800,7 +801,13 @@
 .m8__services{
   padding: 20px 20px;
   height: 400px;
+  width: 250px;
+  margin: 0 auto;
   text-align: center;
+
+}
+.owl-stage{
+  margin: auto;
 }
 .m8__services h1{
   margin: 50% 0;

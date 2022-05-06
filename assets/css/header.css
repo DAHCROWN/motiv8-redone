@@ -252,6 +252,10 @@
     right: 0px;
     top: 80px;
     width: 100%;
+    background-color: #ffffff;
+  }
+  .header__nav.open a{
+    color: #112791;
   }
 
   .header__nav div {

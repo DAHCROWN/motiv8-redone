@@ -153,6 +153,7 @@
   padding: 80px 8%;
   display: flex;
   background-image: url(/assets/img/hub-bg.png);
+  background-size: cover;
 }
 
 .hub__hero img{

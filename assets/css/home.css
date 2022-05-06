@@ -238,7 +238,7 @@
   font-size: 40px;
   font-weight: bolder;
   width: fit-content;
-  margin: auto 0;
+  margin: auto;
   color: white;
   padding-top: 40px;
 }
@@ -606,8 +606,8 @@
   font-size: 40px;
   font-weight: bolder;
   width: fit-content;
-  margin: 0 8%;
-  padding: 20px 0;
+  margin: auto;
+  padding: 50px 0;
 
   color: rgb(20, 19, 19);
 }

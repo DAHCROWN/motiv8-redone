@@ -21,12 +21,18 @@
 
 <body>
   <div id="main">
-    <div class="hero-bg"></div>
-    <header class="header__pro">
+    <!-- <div class="hero-bg"></div> -->
+    <header class="header ">
+      <style>
+        .header__nav > a{
+          color: #112791 !important;
+       }
+      </style>
+      <div class="h-regular"></div>
       <!-- <div class="header__bg__layer"></div> -->
-      <div class="header__body" style="background-color: white">
+      <div class="header__body ">
         <div class="header_logo">
-          <a href="/index.html"><img src="/assets/img/logo-svg.svg" /></a>
+          <a href="/index.html"><img src="../assets/img/logo-svg.svg" /></a>
         </div>
 
         <div class="header__ham" onclick="toggleanimate()">
@@ -34,61 +40,33 @@
           <div class="nav-bar"></div>
           <div class="nav-bar"></div>
         </div>
-<style>
-  .header__nav a {
-    color: #112791;
-  }
-.header__phone__number__wrap {
-  /* display: flex;
-  flex: 1;
-  justify-content: flex-end; */
-  max-height: 45px;
-  color: #112791;
-}
-.header__phone__number__wrap > :first-child {
-  /* margin-right: 20px; */
-  padding: px 5px;
-}
-.header__phone__number__wrap > a {
-  /* margin-right: 20px; */
-  color: #112791;
-}
-.header__phone__number__wrap {
-  color: #112791;
-  padding: 3px 5px;
-  border-radius: 5px;
-}
-.header__phone__number__wrap {
-  border: 2px solid #112791;
-  padding: 3px 5px;
-  border-radius: 5px;
-}
-</style>
+
         <div class="header__nav">
-          <a href="../index.html">
+          <a href="/index.html" class="header__active">
             <div>Home</div>
           </a>
-          <a href="./projects.html" class="header__active">
+          <a href="/pages/projects.html">
             <div>Projects</div>
           </a>
           <a href="https://academy.motiv8technologies.com">
             <div>Academy</div>
           </a>
-          <a href="./hub.html">
+          <a href="/pages/hub.html">
             <div>Hubs</div>
           </a>
-          <a href="./blog.html">
+          <a href="/pages/blog.html">
             <div>Blog</div>
           </a>
-          <a href="./about.html">
+          <a href="/pages/about.html">
             <div>About</div>
           </a>
-          <div class="header__phone__number__wrap">
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <a href="callto:+23470000668488">070000668488</a>
+          <div class="header__phone__number__wrap" style="padding: 4px 10px; background-color:white; color :blue ; border-radius:50px">
+            <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
+            <a href="callto:+23470000668488" style="color :blue">Contact us</a>
           </div>
         </div>
       </div>
+
     </header>
     <div class="back-drop" onclick="toggleanimate()"></div>
     <main>

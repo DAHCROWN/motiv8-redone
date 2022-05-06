@@ -1,8 +1,17 @@
 .home__hero__wrap {
-  /* display: flex; */
+  display: flex;
   padding: 70px 8%;
   /* height: 100%; */
 }
+.home__hero__wrap .image__box {
+  float: right !important;
+  
+}
+.home__hero__wrap .home__hero__text {
+ padding: 20px;
+  float: left !important;
+}
+
 .header_logo img {
   margin-left: 50px;
   width: 10px;
@@ -16,7 +25,7 @@
   color: var(--color-white);
   font-family: Readex Pro;
   font-weight: bolder;
-  font-size: 80px !important;
+  /* font-size: 80px !important; */
   margin: 0px;
 }
 .home__hero__text > p {
@@ -183,13 +192,16 @@
   padding-bottom: 10px;
 }
 .home__section__work__process {
-  background: url(/assets/img/work_process.png);
+  background: url(/assets/img/bgs/just-blue.svg);
   height: fit-content;
   padding: 30px 80px;
 
 }
 .home__section__work__process img{
   height: 80%;
+}
+.seprator img{ 
+ margin: auto;
 }
 .home__section__work__process button{
   display: flex;
@@ -222,10 +234,10 @@
 }
 .work__process__heading h2{
   font-family: Readex Pro;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bolder;
   width: fit-content;
-  margin: auto;
+  margin: auto 0;
   color: white;
   padding-top: 40px;
 }
@@ -590,11 +602,12 @@
 }
 .services__heading h2{
   font-family: Readex Pro;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bolder;
   width: fit-content;
-  margin: auto;
-  padding: 50px 0;
+  margin: 0 8%;
+  padding: 20px 0;
+
   color: rgb(20, 19, 19);
 }
 
@@ -803,6 +816,7 @@
   gap: 55px;
   margin: 0px 10px;
   padding: 50px 10%;
+  padding-bottom: 100px;
 }
 .project__hero__text {
   flex: 1;
@@ -815,5 +829,10 @@
   margin: 0px;
 }
 .services-section{
-  margin: 100px 20px;
+  margin: o;
+  background-image: url(/assets/img/bgs/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  
 }

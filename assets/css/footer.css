@@ -1,5 +1,5 @@
 .footer {
-  background: var(--footer-bg);
+  background-image: url(/assets/img/bgs/footer.svg);
   color: var(--color-light) !important;
 }
 
@@ -30,10 +30,10 @@ a {
   color: inherit;
   transition: all 0.4s ease-out;
   font-size: 16px;
-  color: var(--text-color-primary);
+  color: var(--color-ligh);
 }
 .footer__links__list a:hover {
-  color: var(--color-black);
+  color: var(--color-light);
   padding-left: 4px;
   text-decoration: underline;
 }
@@ -79,7 +79,7 @@ a {
   font-size: 24px;
 }
 .footer__social__btn a:hover i {
-  color: var(--color-black);
+  color: var(--color-light);
 }
 
 .footer__location {
@@ -90,8 +90,8 @@ a {
 .footer__location > a {
   text-decoration: none;
   transition: all 0.5s;
-  fill: var(--text-color-primary);
-  color: var(--text-color-primary);
+  fill: var(--color-light);
+  color: var(--color-light);
 }
 
 .footer__location > a small {
@@ -99,8 +99,8 @@ a {
 }
 
 .footer__location > a:hover {
-  color: var(--color-black);
-  fill: var(--color-black);
+  color: var(--color-light);
+  fill: var(--color-light);
   text-decoration: underline;
 }
 
@@ -110,7 +110,7 @@ a {
 
 .footer__copyright {
   text-align: center;
-  color: var(--text-color-primary);
+  color: var(--color-light);
 }
 
 @media (max-width: 992px) {

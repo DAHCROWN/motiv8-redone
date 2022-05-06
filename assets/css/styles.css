@@ -774,7 +774,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   margin: 0;
-  color: var(--text-color-primary);
+  color: var(--color-light);
 }
 
 p {

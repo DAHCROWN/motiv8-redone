@@ -35,11 +35,17 @@
   <body>
     <div id="main">
       <!-- header -->
-      <header class="header">
-        <div class="header__bg__layer__about"></div>
-        <div class="header__body">
+      <header class="header ">
+        <style>
+          .header__nav > a{
+            color: #112791 !important;
+         }
+        </style>
+        <div class="h-regular"></div>
+        <!-- <div class="header__bg__layer"></div> -->
+        <div class="header__body ">
           <div class="header_logo">
-            <a href="/index.html"><img src="/assets/img/logo-svg.svg" /></a>
+            <a href="/index.html"><img src="../assets/img/logo-svg.svg" /></a>
           </div>
   
           <div class="header__ham" onclick="toggleanimate()">
@@ -49,24 +55,31 @@
           </div>
   
           <div class="header__nav">
-            <a href="/index.html">
+            <a href="/index.html" class="header__active">
               <div>Home</div>
             </a>
-            <a href="https://www.academy.motiv8technologies.com/">
+            <a href="/pages/projects.html">
+              <div>Projects</div>
+            </a>
+            <a href="https://academy.motiv8technologies.com">
               <div>Academy</div>
             </a>
-            <a href="blog.html">
+            <a href="/pages/hub.html">
+              <div>Hubs</div>
+            </a>
+            <a href="/pages/blog.html">
               <div>Blog</div>
             </a>
-            <a href="about.html" class="header__active">
+            <a href="/pages/about.html">
               <div>About</div>
             </a>
-            <div class="header__phone__number__wrap">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <a href="callto:+23470000668488">070000668488</a>
+            <div class="header__phone__number__wrap" style="padding: 4px 10px; background-color:white; color :blue ; border-radius:50px">
+              <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
+              <a href="callto:+23470000668488" style="color :blue">Contact us</a>
             </div>
           </div>
         </div>
+  
       </header>
       <div class="back-drop" onclick="toggleanimate()"></div>
 

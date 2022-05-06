@@ -24,9 +24,9 @@
     <!-- <div class="hero-bg"></div> -->
     <header class="header ">
       <style>
-        .header__nav > a{
+        .header__nav>a {
           color: #112791 !important;
-       }
+        }
       </style>
       <div class="h-regular"></div>
       <!-- <div class="header__bg__layer"></div> -->
@@ -60,7 +60,8 @@
           <a href="/pages/about.html">
             <div>About</div>
           </a>
-          <div class="header__phone__number__wrap" style="padding: 4px 10px; background-color:white; color :blue ; border-radius:50px">
+          <div class="header__phone__number__wrap"
+            style="padding: 4px 10px; background-color:white; color :blue ; border-radius:50px">
             <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
             <a href="callto:+23470000668488" style="color :blue">Contact us</a>
           </div>
@@ -70,32 +71,60 @@
     </header>
     <div class="back-drop" onclick="toggleanimate()"></div>
     <main>
-      <div class="headings">
-        <h2 style="font-family: Readex Pro;">About Motiv8</h2>
-      </div>
+      <section class="home__hero__wrap__about">
+        <div class="home__hero__text" data-aos="fade-down-right">
+          <div>
+            <h1>ABOUT</h1>
+          </div>
+        </div>
+      </section>
       <section class="intro__brief">
-
-        <p style="font-family: Readex Pro; font-weight: 100; width: 50%;">We pursue relationships based on transparency, persistence, mutual trust, and integrity with our employees,
+        <p>" We pursue relationships based on transparency, persistence, mutual trust, and integrity with our employees,
           customers and other business partners.
           Our team of specialists consistently delivers outstanding results combining creative ideas with our vast
           experience. We can help you with your various information technology services to put your business online and
           make everyday business activities easier. we offer services like website design, social media marketing, Ppc
-          marketing , Graphics design , Networking, and Cyber & Network security</p>
-        <img src="/assets/img/info-1.png" style="width: 40%; padding: 0 20px;"/>
+          marketing , Graphics design , Networking, and Cyber & Network security. "</p>
+      </section>
+      <section class="about__vision__mission" style="background-image: url(/assets/img/card__bg.png);">
+        <div class="headings" style="color: #112591;">
+          <h2 style="font-family: Readex Pro;">Our Mission</h2>
+        </div>
+        <div class="vission__mission">
+          <svg width="300" height="300" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.69 24H41.31M22.2 4.86L6.69 11.25V27C6.69 35.44 24 43.5 24 43.5C24 43.5 41.31 35.44 41.31 27V11.25L25.8 4.86C25.2296 4.62235 24.6179 4.5 24 4.5C23.3821 4.5 22.7704 4.62235 22.2 4.86V4.86ZM24 43.5V4.5V43.5Z"
+              stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <h4> We are serving the community with smarter solutions through tech training, workspace and by taking on
+            bold projects for ourselves and clients.
+          </h4>
+        </div>
+      </section>
+      <section class="about__vision__mission" style="background-image: url(/assets/img/card__bg.png);">
+        <div class="headings" style="color: #112591;">
+          <h2 style="font-family: Readex Pro;">Our Vision</h2>
+        </div>
+        <div class="vission__mission">
+          <h4>To be the destination point for technology offerings.</h4>
+          <svg width="300" height="300" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.69 24H41.31M22.2 4.86L6.69 11.25V27C6.69 35.44 24 43.5 24 43.5C24 43.5 41.31 35.44 41.31 27V11.25L25.8 4.86C25.2296 4.62235 24.6179 4.5 24 4.5C23.3821 4.5 22.7704 4.62235 22.2 4.86V4.86ZM24 43.5V4.5V43.5Z"
+              stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
 
+        </div>
       </section>
       <!-- why choose us -->
       <section class="home__choose__us__wrap">
-        <!-- <div class="choose-us-head">
-        <h2>Why Choose Us</h2>
-      </div> -->
+
         <div class="home__choose__us__body">
           <div class="home__choose__us__item">
             <img src="/assets/img/people-icon.svg" />
 
             <div>
               <h2>People</h2>
-              <p>
+              <p >
                 People within the organization need to actually execute on the
                 strategies, plans, and processes to make a business successful
               </p>
@@ -113,10 +142,8 @@
               </p>
             </div>
           </div>
-
           <div class="home__choose__us__item">
             <img src="/assets/img/tech-icon.svg" />
-
             <div>
               <h2>Technology</h2>
               <p>
@@ -147,7 +174,7 @@
         <!-- <div class="about__illus_wrap">
             <img src="../assets//img/about01.png" class="about__illus" />
           </div> -->
-      </section> -->
+      </section>
       <!-- <section>
         <div class="about__team__list">
           <img src="../assets//img/default-team.svg" />
@@ -172,13 +199,7 @@
 
       <!-- //contact starts Here’s -->
 
-      <section class="contact">
-
-        <!-- <div class="contact__title">
-            <h2>Contact</h2>
-            <p>Need a hand? Or a high five? Here’s how to reach us.</p>
-          </div> -->
-
+      <section class="contact" style="background-image: url(/assets/img/card__bg.png);">
         <div class="contact__form__wrap">
           <div class="contact__loc__phone__mail__wrap">
             <div class="contact__loc__phone__mail">
@@ -205,15 +226,12 @@
               <a href="mailto:support@motiv8technologies.com">support@motiv8technologies.com</a>
             </div>
           </div>
-          <img src="/assets/img/m8-office.jpeg"/>
+          <img src="/assets/img/m8-office.png" />
     </main>
 
     <!-- footer -->
     <footer class="footer">
       <section class="footer__section_one">
-        <div>
-          <img src="../assets/img/motiv8 logo.svg" />
-        </div>
         <div class="footer__links__wrap">
           <div>
             <h3 class="title__three">Links</h3>

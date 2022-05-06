@@ -45,6 +45,10 @@
   background: url(/assets/img/projects-hero.jpg);
   padding: 70px 8%;
 }
+.home__hero__wrap__about{
+  height: fit-content;
+  padding: 30px 8%;
+}
 .hero-bg {
   /* position: relative; */
   background: url(../img/bgs/hero.svg);

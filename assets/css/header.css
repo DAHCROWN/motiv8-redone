@@ -42,7 +42,8 @@
 }
 .home__hero__wrap__pro{
   height: 70vh;
-  background: url(/assets/img/projects-hero.jpg);
+  background: url(/assets/img/projects.png);
+  background-size:cover;
   padding: 70px 8%;
 }
 .home__hero__wrap__about{

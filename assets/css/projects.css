@@ -81,6 +81,8 @@
 
 .home__portfolio__wrap {
   padding: 50px 8%;
+  background-image: url(/assets/img/hub-banner0bg.png);
+  background-size: cover;
   /* background: #eeeef5; */
 }
 .home__portfolio__wrap h2{
@@ -609,12 +611,17 @@
 .service{
   height: 330px;
   position: relative;
-  border: 1px solid #EFEFEF;
+  background: white;
+  padding: 5px 5px;
+  width: fit-content;
 }
 .service h1{
   font-family: Readex Pro;
   font-weight: bolder;
   font-size: 28px;
+  margin: 0;
+  margin-top: 5px;
+
 }
 .service >img{
   width: 250px;

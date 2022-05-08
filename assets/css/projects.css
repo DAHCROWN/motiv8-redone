@@ -2,10 +2,7 @@
   /* display: flex; */
   padding: 70px 8%;
 }
-.header_logo img {
-  margin-left: 50px;
-  width: 10px;
-}
+
 .home__hero__text {
   flex: 1;
   /* padding: 50px 0px; */

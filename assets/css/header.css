@@ -38,7 +38,7 @@
   background-size: cover;
 }
 .home__hero__wrap{
-  height: 70vh;
+  /* height: 70vh; */
 }
 .home__hero__wrap__pro{
   height: 70vh;
@@ -234,9 +234,16 @@
   .header__ham.active .nav-bar:nth-child(3) {
     transform: translateY(-0.8rem) rotate(-45deg);
     width: 2rem;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
 
+  
+
+.header_logo img {
+    /* margin-left: 100px; */
+    width: 80px;
+    padding: 10px 0;
+}
   .header__nav {
     width: 100%;
     /* background-image: url(/assets/img/bgs/hero.svg); */

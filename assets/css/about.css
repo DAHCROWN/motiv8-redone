@@ -29,8 +29,8 @@
 
 
 .header_logo img {
-  margin-left: 50px;
-  width: 150px;
+  /* margin-left: 50px; */
+  width: 100px;
 }
 
 .about__header__content {
@@ -223,8 +223,8 @@
   }
 
   .header_logo img {
-    margin-left: 50px;
-    width: 150px;
+    /* margin-left: 50px; */
+    width: 100px;
   }
 
   .contact__title {
@@ -252,7 +252,7 @@
     display: flex;
     flex-direction: row;
     /* width: 100%; */
-    margin: 50px;
+    /* margin: 50px; */
   }
   .contact__form__wrap img{
     width: 50%;

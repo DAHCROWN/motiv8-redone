@@ -1,8 +1,14 @@
 @media screen and (max-width:500px) {
-    .header_logo img{
+.header_logo img{
         margin: 10px;
         width: 5.2rem;
-    }
+}
+.image__box {
+    width: 100% !important;
+}
+.image__box img{
+    width: 100% !important;
+}
 .home__hero__text > h1{
     font-size: 40px !important;
     text-align: left;

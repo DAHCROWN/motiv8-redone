@@ -1,6 +1,6 @@
 @media screen and (max-width:500px) {
 .header_logo img{
-        margin: 10px;
+        margin: 5px;
         width: 5.2rem;
 }
 .image__box {
@@ -80,6 +80,8 @@
         text-align: center;
         width: fit-content;
         margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        /* background-color: black; */
         /* background-color: black; */
     }
 

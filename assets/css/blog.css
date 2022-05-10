@@ -75,6 +75,7 @@
   background-color: var(--color-white);
   border-radius: 10px;
   overflow: hidden;
+  margin: 20px 0;
 }
 
 .blog__post__body {
@@ -113,26 +114,30 @@
   padding: 50px;
   position: relative;
   margin: auto;
-  width: 1000px;
+  width: 100%;
   display: flex;
   align-self: center;
   flex-direction: row;
 }
 .blog__posts__most__recent img{
-  height: 400px;
+  height: 100%;
+
+  width: 100%;
   padding: 10px;
 }
 .blog__posts__most__recent__details{
   vertical-align: middle;
-  width: 400px;
+  width: 50%;
+  height: fit-content;
+  margin: auto;
   padding: 10px;
 }
 .blog__posts__most__recent__details p{
-  width: 400px;
+  width: 100%;
   margin: 10px;
 }
 .blog__posts__most__recent__details h2{
-  width: 400px;
+  width: 100%;
   margin: 10px;
 }
 .blog__posts__author{

@@ -38,7 +38,7 @@
   background-size: cover;
 }
 .home__hero__wrap{
-  /* height: 70vh; */
+  /* height: 70vh;   */
 }
 .home__hero__wrap__pro{
   height: 70vh;
@@ -243,7 +243,12 @@
 .header_logo img {
     /* margin-left: 100px; */
     width: 80px;
-    padding: 10px 0;
+    /* padding: 10px 0; */
+}
+.header_logo {
+ 
+  padding: 0 20px;
+ 
 }
   .header__nav {
     width: 100%;

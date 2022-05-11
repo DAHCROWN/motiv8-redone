@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Readex+Pro');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap");
 
 :root {
   --color-primary: #0000fe;
@@ -16,7 +17,8 @@
 
 * {
   box-sizing: border-box;
-  font-family: Lato;
+  font-family: Readex Pro;
+  font-weight: 200;
 }
 
 html,
@@ -775,7 +777,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   margin: 0;
-  color: var(--color-light);
+  color: rgb(0, 0, 0);
 }
 
 p {

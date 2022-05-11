@@ -1,6 +1,6 @@
 .footer {
   background-image: url(/assets/img/bgs/footer.svg);
-  color: var(--color-light) !important;
+  color: var(--color-primary) !important;
 }
 
 .footer__section_one {
@@ -31,7 +31,7 @@ a {
   transition: all 0.4s ease-out;
   font-size: 16px;
   /* color: var(--color-ligh); */
-  color;
+  color: #112791;
 }
 .footer__links__list a:hover {
   color: var(--color-light);
@@ -91,8 +91,8 @@ a {
 .footer__location > a {
   text-decoration: none;
   transition: all 0.5s;
-  fill: var(--color-light);
-  color: var(--color-light);
+  fill: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .footer__location > a small {
@@ -111,7 +111,7 @@ a {
 
 .footer__copyright {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-primary);
 }
 
 @media (max-width: 992px) {

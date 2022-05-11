@@ -15,6 +15,15 @@
   <link type="text/css" href="../assets/css/footer.css" rel="stylesheet" />
   <link type="text/css" href="../assets/css/contact.css" rel="stylesheet" />
   <link type="text/css" href="../assets/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="../assets/css/aos.css" />
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/owl.carousel.min.js"></script>
+  <script src="../assets/js/slick.min.js"></script>
 </head>
 
 <body>
@@ -73,12 +82,11 @@
     <div class="back-drop" onclick="toggleanimate()"></div>
     <main>
       <section class="hub__hero">
-        <div class="hub__intro">
-          <h2>Uninterrupted Electricity, Superfast Internet Connectivity, Printing Services and Tech support at your fingertips for almost Free</h2>
+        <div class="hub__intro" data-aos="fade">
+          <h1>Uninterrupted Electricity, Superfast Internet Connectivity, Printing Services and Tech support at your fingertips for almost Free</h1>
           <h4>Get the best service at our out Hub</h4>
-          <button>Book a Space</button>
+          <button>BOOK A SPACE</button>
         </div>
-         <!-- <img src="/assets/img/hub.png"/> -->
       </section>
       <section class="services-section" style="background: white;">
         <div class="services__heading">
@@ -100,13 +108,18 @@
       </section>
 
       <section>
-        <div class="w3-content w3-display-container">
-          <img class="mySlides" src="img_snowtops.jpg" style="width:100%">
-          <img class="mySlides" src="img_lights.jpg" style="width:100%">
-          <img class="mySlides" src="img_mountains.jpg" style="width:100%">
-          <img class="mySlides" src="img_forest.jpg" style="width:100%">
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="loop owl-carousel owl-theme" data-category="all">
+              <div class="item">
+                <img src="../assets/img/edited 1.jpg" style="width: 800px; height: auto;"/>
+              </div>
+              <div class="item">
+                <img src="../assets/img/edited 2.jpg" style="width: 800px; height: auto;"/>
+              </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -115,7 +128,7 @@
           <h2 style="font-family: Readex Pro;">Price Plans</h2>
         </div>
         <div class="price__plans">
-          <div class="price__plans__cards">
+          <div class="price__plans__cards" data-aos="fade-up">
             <h2>Critical WorkSpace</h2>
             <h3>N500</h3>
             <div class="bttm">
@@ -125,7 +138,7 @@
             <span>Work Desk</span>
             <span>No internet</span>
           </div>
-          <div class="price__plans__cards">
+          <div class="price__plans__cards" data-aos="fade-up">
             <h2>Active WorkSpace</h2>
             <h3>N1000</h3>
             <div class="bttm">
@@ -136,7 +149,7 @@
             <span>Fast internet</span>
           </div>
         </div>
-      </section>
+      </section>  
 
       <div id="modal-background">
         <div id="modal">
@@ -288,5 +301,15 @@
 </body>
 <script language="javascript" src="../assets/js/hamnav.js"></script>
 <script type="text/javascript" src="../assets/js/contact.js"></script>
+<script src="/assets/js/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
+</script>
+<script type="text/javascript" src="../assets/js/contact.js"></script>
+<script type="text/javascript" src="/assets/js/dynamic-header.js"></script>
+<script src="../assets/js/custom.js"></script>
+
 
 </html>

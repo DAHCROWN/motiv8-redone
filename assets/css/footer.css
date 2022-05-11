@@ -31,7 +31,7 @@ a {
   transition: all 0.4s ease-out;
   font-size: 16px;
   /* color: var(--color-ligh); */
-  color;
+  color: #112791;
 }
 .footer__links__list a:hover {
   color: var(--color-light);

@@ -183,17 +183,17 @@
 .home__more__value__content__item > p {
   margin: 0px 0px;
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 200;
   color: #112791;
-  font-family;
+  font-family: Readex Pro;
 
 }
 .home__more__value__content > h4 {
   margin: 8px 0px;
-  font-weight: bolder;
+  font-weight: 200;
   font-family: Readex Pro;
   color: #112791;
-  font-size: 25px;
+  font-size: 32px;
   padding-bottom: 10px;
 }
 

@@ -268,6 +268,7 @@
   font-weight: 100;
   font-size: 25px;
   font-weight: lighter;
+  font-family: Readex Pro;
   color: white;
 }
 .work__process__content div button{
@@ -654,6 +655,8 @@
 }
 .service > h3{ 
   margin-top: 3px;
+  font-family: Readex Pro;
+  font-weight: 200;
 }
 .reverse_colors {
 

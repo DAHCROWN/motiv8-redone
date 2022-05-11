@@ -647,7 +647,8 @@
     color: #ffffff;
   }
   .home__choose__us__item div p{
-    font-family: Lato;
+    font-family: Readex Pro;
+    font-weight: 200;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.802);
   }
@@ -684,8 +685,12 @@
 
 }
 .vission__mission h4{
-  font-family: Montserrat;
+  font-family: Readex Pro;
+  font-weight: 200;
   font-size: 26px;
   width: 50%;
   color: black;
+}
+.vission__mission svg{
+  height: 300px;
 }

@@ -789,6 +789,8 @@
 /* brands */
 .brands__banner{
   padding: 50px;
+  background-image: url(/assets/img/hub-banner0bg.png);
+  background-size: cover;
   /* margin-bottom: 100px; */
 }
 .grid__brands{
@@ -884,4 +886,29 @@
   background-size: cover;
   padding: 50px 10px;
  
+}
+.home__approach{
+  margin: 20px 15%;
+  font-size: 32px;
+  font-family: Readex Pro;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.home__approach h4{
+  margin: 0;
+  color: black;
+  font-family: Readex Pro;
+  font-weight: 200;
+  font-size: 28px;
+}
+.__our__approach{
+  /* margin: 30px 0; */
+  background-image: url(/assets/img/collaboration.png);
+  background-size: cover;
+  padding: 30px ;
+}
+.__work__process{
+  background-image: url(/assets/img/hub-banner0bg.png);
+  background-size: cover;
 }

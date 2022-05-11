@@ -17,7 +17,8 @@
 
 * {
   box-sizing: border-box;
-  font-family: Lato;
+  font-family: Readex Pro;
+  font-weight: 200;
 }
 
 html,
@@ -776,7 +777,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   margin: 0;
-  color: var(--color-light);
+  color: rgb(0, 0, 0);
 }
 
 p {

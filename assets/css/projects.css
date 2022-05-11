@@ -1,3 +1,25 @@
+.services-section{
+  margin: 30px 0;
+}
+.home__hero__text > button {
+  display: flex;
+  align-items: center;
+  margin: 20px 5px;
+  background-color: #112791;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Readex Pro;
+  font-weight: 400;
+}
+.home__hero__text > button:hover{
+  cursor: pointer;
+  background-color: #EFEFEF;
+  color: #112791;
+  transition: 0.45s;
+}
 .home__hero__wrap {
   /* display: flex; */
   padding: 70px 8%;
@@ -11,7 +33,7 @@
 .home__hero__text div{
   /* margin-top: 120px; */
   padding: 30px 30px;
-  background-color: #112591;
+  background-color: none !important;
   display: flex;
   flex-direction: column;
   width: fit-content;
@@ -37,8 +59,7 @@
   display: flex;
   align-items: center;
   margin: 50px auto;
-  background: orange;
-  color: black;
+
   padding: 10px 30px;
   border-radius: 5px;
   border: none;

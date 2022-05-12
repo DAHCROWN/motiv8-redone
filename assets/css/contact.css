@@ -195,9 +195,13 @@
 .request__us__header div{
   padding:10px 40px;
 }
+
 .request__us__header div h2, h4{
   font-family: Montserrat;
   color: #112791;
+}
+.request__us__header h4{
+  font-family: Readex Pro;
 }
 .request__us__header div h2{
   font-size: 35px;

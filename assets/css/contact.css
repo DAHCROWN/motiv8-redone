@@ -190,7 +190,7 @@
 .request__us__header{
   /* background: url(/assets/img/contact_bg.jpg); */
   width: 100%;
-  /* text-align: center; */
+  text-align: center;
 }
 .request__us__header div{
   /* padding:10px 40px; */

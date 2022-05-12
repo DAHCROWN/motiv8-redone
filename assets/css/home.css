@@ -206,9 +206,7 @@
 .home__section__work__process img{
   height: 80%;
 }
-.seprator img{ 
- margin: auto;
-}
+
 .home__section__work__process button{
   display: flex;
   align-items: center;
@@ -806,16 +804,19 @@
 .contact{
   position: fixed;
   bottom: 10px;
-  right: 40px;
-  width: fit-content;
-  height: fit-content;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
 }
 .contact button{
   background: #112791;
   border: none;
   margin: 0;
   border: 2px solid white;
-  border-radius: 50%;
+  border-radius: 100%;
+  width: auto;
+  height: auto;
 }
 .contact button:hover{
   cursor: pointer;
@@ -911,4 +912,5 @@
 .__work__process{
   background-image: url(/assets/img/hub-banner0bg.png);
   background-size: cover;
+  width: 100%;
 }

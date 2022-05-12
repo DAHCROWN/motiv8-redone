@@ -214,6 +214,7 @@
 }
 .home__section__work__process img{
   height: 80%;
+  margin: auto;
 }
 .home__section__work__process button{
   display: flex;

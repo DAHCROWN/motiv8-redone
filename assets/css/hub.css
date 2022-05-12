@@ -1,3 +1,7 @@
+.hub__pictures{
+  margin: 100px 0;
+}
+
 .hub__hero__wrap {
   /* display: flex; */
   padding: 70px 8%;
@@ -171,7 +175,7 @@
   color: var(--color-white);
   font-family: Readex Pro;
   font-weight: bolder;
-  font-size: 45px !important;
+  font-size: 45px;
   margin: 0px;
   color: #112591;
   text-align: center;
@@ -192,7 +196,8 @@
 .hub__intro > button{
   display: flex;
   align-items: center;
-  margin: 20px 5px;
+  margin: auto;
+  margin-top: 20px;
   background-color: #112791;
   border: 2px solid white;
   color: white;
@@ -210,4 +215,15 @@
   color: #112791;
   transition: 0.45s;
   border: 2px solid #112591;
+}
+@media screen and (max-width: 500px) {
+  .hub__intro h1{
+    font-size: 35px !important;
+}
+/* .container-hub-grids{
+  grid-template-columns: 10% 10% 10%;
+} */
+.hub-services img{
+  width: 100px;
+}
 }

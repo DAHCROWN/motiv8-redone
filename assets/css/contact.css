@@ -196,13 +196,16 @@
   /* padding:10px 40px; */
   margin-top: 50px;
 }
+
 .request__us__header div h2, h4{
   font-family: Montserrat;
   color: #112791;
 }
+
 .request__us__header div h2{
   font-size: 35px;
   margin-top: 0%;
+  font-family: Readex Pro;
 }
 #modal-background{
   display: none;

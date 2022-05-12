@@ -912,4 +912,5 @@
 .__work__process{
   background-image: url(/assets/img/hub-banner0bg.png);
   background-size: cover;
+  width: 100%;
 }

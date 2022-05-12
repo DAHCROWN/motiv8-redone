@@ -694,3 +694,27 @@
 .vission__mission svg{
   height: 300px;
 }
+.contact2{
+  position: fixed;
+  bottom: 10px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+}
+.contact button{
+  background: #112791;
+  border: none;
+  margin: 0;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: auto;
+  height: auto;
+}
+.contact button:hover{
+  cursor: pointer;
+  background: blue;
+}
+.contact button svg{
+  padding: 5px;
+}

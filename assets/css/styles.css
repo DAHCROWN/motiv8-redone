@@ -799,7 +799,7 @@ p {
 }
 
 .input {
-  padding: 15px 10px;
+  padding: 8px 45px 8px 5px;
   border: none;
   border-bottom: 1px solid var(--color-light);
   outline: none;

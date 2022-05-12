@@ -1,12 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="937" viewBox="0 0 1920 937">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1943.9" height="957.414" viewBox="0 0 1943.9 957.414">
   <defs>
     <linearGradient id="linear-gradient" x1="0.831" x2="0.625" y2="0.946" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#2908ac"/>
+      <stop offset="0" stop-color="#0000b9"/>
       <stop offset="1" stop-color="#0800ff"/>
     </linearGradient>
   </defs>
-  <g id="Rectangle_1" data-name="Rectangle 1" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
-    <rect width="1920" height="937" stroke="none"/>
-    <rect x="0.5" y="0.5" width="1919" height="936" fill="none"/>
+  <g id="Group_3" data-name="Group 3" transform="translate(83.9 1947.414)">
+    <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(-83.9 -1947.414)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="1920" height="937" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1919" height="936" fill="none"/>
+    </g>
+    <path id="Path_15" data-name="Path 15" d="M274,0c62.8,0,167.85,31.592,167.1,56.831s0,164.372,0,252.9c-1.955-2.232-15.77,0-167.1,0H0V274C0,122.674,122.674,0,274,0Z" transform="translate(1395 -1320.143)" fill="rgba(255,255,255,0.13)"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="45" cy="45" r="45" transform="translate(503 -1355)" fill="rgba(255,255,255,0.13)"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="156.5" cy="156.5" r="156.5" transform="translate(-35 -1303)" fill="rgba(255,255,255,0.13)"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="60.5" cy="60.5" r="60.5" transform="translate(518 -1819)" fill="rgba(255,255,255,0.13)"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M73.327,31.38a21,21,0,0,1,36.345,0l55.071,95.1A21,21,0,0,1,146.571,158H36.429a21,21,0,0,1-18.173-31.524Z" transform="matrix(0.719, 0.695, -0.695, 0.719, 865.159, -1251.192)" fill="rgba(255,255,255,0.15)"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M37.5,0,75,65H0Z" transform="translate(96 -1179)" fill="rgba(255,255,255,0.15)"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M14.5,0,29,25H0Z" transform="translate(564 -1771)" fill="rgba(255,255,255,0.15)"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="171" height="171" rx="28" transform="matrix(0.819, -0.574, 0.574, 0.819, -67.157, -1795.918)" fill="rgba(255,255,255,0.15)"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="191" height="191" rx="33" transform="translate(1669 -1660)" fill="rgba(255,255,255,0.15)"/>
+    <path id="Polygon_4" data-name="Polygon 4" d="M73.327,31.38a21,21,0,0,1,36.345,0l55.071,95.1A21,21,0,0,1,146.571,158H36.429a21,21,0,0,1-18.173-31.524Z" transform="translate(1036.062 -1784.277) rotate(-48)" fill="rgba(255,255,255,0.15)"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="191" height="191" rx="33" transform="matrix(0.819, -0.574, 0.574, 0.819, 1071.095, -1431.866)" fill="rgba(255,255,255,0.15)"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="94" cy="94" r="94" transform="translate(440 -1453)" fill="rgba(255,255,255,0.13)"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="191" height="191" rx="33" transform="matrix(0.819, -0.574, 0.574, 0.819, 938.089, -1474.872)" fill="rgba(255,255,255,0.15)"/>
   </g>
 </svg>

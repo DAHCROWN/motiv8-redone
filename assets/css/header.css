@@ -246,9 +246,7 @@
     /* padding: 10px 0; */
 }
 .header_logo {
- 
-  padding: 0 20px;
- 
+  padding: 4px 10px 4px 22px !important;  
 }
   .header__nav {
     width: 100%;

@@ -45,11 +45,11 @@
   flex: 1;
   box-sizing: border-box;
   overflow: hidden;
-  width: 70%;
+  /* width: 70%; */
   height: 100%;
   text-align: center;
   background-color: var(--color-white);
-  padding: 20px;
+  padding: 0 5px;
 }
 .contact__form > :not(:last-child) {
   margin-bottom: 20px;
@@ -193,7 +193,8 @@
   text-align: center;
 }
 .request__us__header div{
-  padding:10px 40px;
+  /* padding:10px 40px; */
+  margin-top: 50px;
 }
 
 .request__us__header div h2, h4{
@@ -221,27 +222,33 @@
 }
 #close-btn {
   align-self: baseline;
-  margin-top: 10px;
-  padding: 10px 50px;
+  /* margin-top: 10px; */
+  /* padding: 10px 50px; */
   font-size: 50px;
   color: red;
   cursor: pointer;
+  position: absolute;
+  top: -11px;
+  left: 14px;
 }
 
 #modal {
   background-color: #fff;
   border-radius: 5px;
   position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  width: 40%;
+  padding: 20px;
+  bottom: 10px;
+  right: 10px;
+  /* transform: translate(-50%, -50%); */
+  width: fit-content;
   display: flex;
   flex-direction: column;
+  height: 90%;
   align-items: center;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   animation-name: animatemodal;
   animation-duration: 0.4s;
+  
 }
 .modal__contents{
   width: 100%;
